@@ -1,4 +1,6 @@
-pub mod variables;
+pub mod conditions;
+pub mod enums;
 pub mod functions;
-pub mod if_condition;
-pub mod loop_iteration;
+pub mod iterations;
+pub mod structures;
+pub mod variables;
