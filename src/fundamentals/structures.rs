@@ -10,7 +10,11 @@ pub fn run() {
         salary: 15000.0,
     };
 
+<<<<<<< HEAD
     print_employee(emp);
+=======
+    print(emp);
+>>>>>>> 160ca0fb328588e525c390198ad13287f6a57a28
 }
 
 struct EmployeeRecord {
@@ -19,7 +23,11 @@ struct EmployeeRecord {
     salary: f32,
 }
 
+<<<<<<< HEAD
 fn print_employee(emp: EmployeeRecord) {
+=======
+fn print(emp: EmployeeRecord) {
+>>>>>>> 160ca0fb328588e525c390198ad13287f6a57a28
     println!("----------------------------------");
     println!("Employee Name is {:?}", emp.name);
     println!("Employee Age is {:?}", emp.age);
