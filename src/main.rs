@@ -7,5 +7,6 @@ fn main() {
     //fundamentals::iterations::run();
     //fundamentals::enums::run();
     //fundamentals::structures::run();
-    fundamentals::tuples::run();
+    //fundamentals::tuples::run();
+    fundamentals::expressions::run();
 }
