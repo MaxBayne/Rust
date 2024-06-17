@@ -8,5 +8,6 @@ fn main() {
     //fundamentals::enums::run();
     //fundamentals::structures::run();
     //fundamentals::tuples::run();
-    fundamentals::expressions::run();
+    //fundamentals::expressions::run();
+    fundamentals::ownership::run();
 }
