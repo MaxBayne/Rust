@@ -12,12 +12,36 @@ pub fn run() {
         Genre::Other => println!("its other"),
     }
 
+    println!("-----------------------------------------");
+
     //use some extensions
 
     let direction = Direction::Right;
 
     direction.print();
     direction.print_arabic();
+
+    println!("-----------------------------------------");
+
+    let tickets = vec![
+        Ticket::Standard(200.0),
+        Ticket::Backstage(350.0, "Ahmed".to_owned()),
+        Ticket::Vip(500.0, "Dr.Khalid".to_owned()),
+    ];
+
+    for ticket in tickets {
+        match ticket {
+            Ticket::Standard(price) => println!("Standard Ticket with price = {:?}", price),
+            Ticket::Backstage(price, holder) => println!(
+                "Backstage Ticket with price = {:?},For Holder {:?}",
+                price, holder
+            ),
+            Ticket::Vip(price, holder) => println!(
+                "Vip Ticket with price = {:?},For Holder {:?}",
+                price, holder
+            ),
+        }
+    }
 }
 
 //Declare Enums =====================================
@@ -33,6 +57,17 @@ enum Genre {
     Male,
     Female,
     Other,
+}
+
+enum Discount {
+    Percent(i32),
+    Flat(i32),
+}
+
+enum Ticket {
+    Standard(f64),
+    Backstage(f64, String),
+    Vip(f64, String),
 }
 
 //Set Some Functions inside Enums (Extensions)==========
