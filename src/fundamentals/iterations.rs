@@ -29,4 +29,12 @@ pub fn run() {
 
         counter -= 1;
     }
+
+    println!("================= For Loop =================");
+
+    let numbers = vec![2, 4, 6, 8, 10];
+
+    for number in numbers {
+        println!("{}", number);
+    }
 }
