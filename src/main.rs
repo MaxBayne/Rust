@@ -5,7 +5,7 @@ fn main() {
     //fundamentals::functions::run();
     //fundamentals::conditions::run();
     //fundamentals::iterations::run();
-    fundamentals::enums::run();
+    //fundamentals::enums::run();
     //fundamentals::structures::run();
     //fundamentals::tuples::run();
     //fundamentals::expressions::run();
@@ -13,4 +13,5 @@ fn main() {
     //fundamentals::vectors::run();
     //fundamentals::strings::run();
     //fundamentals::derives::run();
+    fundamentals::options::run();
 }
