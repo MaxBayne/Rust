@@ -6,6 +6,7 @@ pub mod functions;
 pub mod iterations;
 pub mod options;
 pub mod ownership;
+pub mod results;
 pub mod strings;
 pub mod structures;
 pub mod tuples;
