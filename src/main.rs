@@ -7,11 +7,6 @@ fn main() {
     //fundamentals::conditions::run();
     //fundamentals::iterations::run();
 
-    //fundamentals::expressions::run();
-    //fundamentals::ownership::run();
-    //fundamentals::derives::run();
-    fundamentals::closures::run();
-
     //Data Types ===============================
     //fundamentals::strings::run();
     //fundamentals::enums::run();
@@ -23,4 +18,13 @@ fn main() {
     //Data Collections =========================
     //fundamentals::vectors::run();
     //fundamentals::hashmaps::run();
+
+    //Data Format ===============================
+    fundamentals::maps::run();
+
+    //Advanced =================================
+    //fundamentals::expressions::run();
+    //fundamentals::ownership::run();
+    //fundamentals::derives::run();
+    //fundamentals::closures::run();
 }

@@ -6,6 +6,7 @@ pub mod expressions;
 pub mod functions;
 pub mod hashmaps;
 pub mod iterations;
+pub mod maps;
 pub mod options;
 pub mod ownership;
 pub mod results;
