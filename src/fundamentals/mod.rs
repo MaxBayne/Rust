@@ -3,6 +3,7 @@ pub mod derives;
 pub mod enums;
 pub mod expressions;
 pub mod functions;
+pub mod hashmaps;
 pub mod iterations;
 pub mod options;
 pub mod ownership;

@@ -1,18 +1,25 @@
 mod fundamentals;
 
 fn main() {
+    //Basics ===================================
     //fundamentals::variables::run();
     //fundamentals::functions::run();
     //fundamentals::conditions::run();
     //fundamentals::iterations::run();
-    //fundamentals::enums::run();
-    //fundamentals::structures::run();
-    //fundamentals::tuples::run();
-    fundamentals::results::run();
+
     //fundamentals::expressions::run();
     //fundamentals::ownership::run();
-    //fundamentals::vectors::run();
-    //fundamentals::strings::run();
     //fundamentals::derives::run();
+
+    //Data Types ===================================
+    //fundamentals::strings::run();
+    //fundamentals::enums::run();
+    //fundamentals::structures::run();
     //fundamentals::options::run();
+    //fundamentals::tuples::run();
+    //fundamentals::results::run();
+
+    //Data Collections ===================================
+    //fundamentals::vectors::run();
+    fundamentals::hashmaps::run();
 }
