@@ -10,8 +10,9 @@ fn main() {
     //fundamentals::expressions::run();
     //fundamentals::ownership::run();
     //fundamentals::derives::run();
+    fundamentals::closures::run();
 
-    //Data Types ===================================
+    //Data Types ===============================
     //fundamentals::strings::run();
     //fundamentals::enums::run();
     //fundamentals::structures::run();
@@ -19,7 +20,7 @@ fn main() {
     //fundamentals::tuples::run();
     //fundamentals::results::run();
 
-    //Data Collections ===================================
+    //Data Collections =========================
     //fundamentals::vectors::run();
-    fundamentals::hashmaps::run();
+    //fundamentals::hashmaps::run();
 }
