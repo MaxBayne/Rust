@@ -12,7 +12,7 @@ pub fn run() {
         active: Some(true),
     };
 
-    if student.address != None {
+    if student.address.is_some() {
         println!("Student Has Address");
     } else {
         println!("Student Not Has Address");
@@ -21,6 +21,12 @@ pub fn run() {
     match student.phone {
         Some(phone) => println!("Student has Phone ({:?})", phone),
         None => println!("Student not have Phone Number"),
+    }
+
+    if student.active.is_none() {
+        println!("Student Not Active");
+    } else {
+        println!("Student is Active");
     }
 }
 

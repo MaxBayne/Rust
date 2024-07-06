@@ -20,11 +20,12 @@ fn main() {
     //fundamentals::hashmaps::run();
 
     //Data Format ===============================
-    fundamentals::maps::run();
+    //fundamentals::maps::run();
 
     //Advanced =================================
     //fundamentals::expressions::run();
     //fundamentals::ownership::run();
     //fundamentals::derives::run();
     //fundamentals::closures::run();
+    fundamentals::iterators::run();
 }
